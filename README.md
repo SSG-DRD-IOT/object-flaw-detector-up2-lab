@@ -140,7 +140,7 @@ Select the Language standard as ISO **C++ 11(-std=c++0x)** and click **OK**.
 
 	<br>
 
-	![image of Intel System Studio](https://github.com/intel-iot-devkit/smart-video-workshop/blob/master/images/ISS_Run_Configuration_face_detection_remote.png "Setup face_detection_remote Run Configuration")
+	![image of Intel System Studio](./images/object-flaw-commands.jpg)
 
 	<br>
 
