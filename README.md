@@ -95,22 +95,19 @@ Select the Language standard as ISO **C++ 11(-std=c++0x)** and click **OK**.
 ### Run object_flaw_detector as remote application on UP²* then display the results on your laptop
 1. Preparation:
 
-	a. Open a new Terminal, type command below, we are sending necessary dependencies to the remote device:
 
-		scp -r /home/intel/system_studio/workspace/samples/build/Debug/intel64/Debug/lib upsquared@10.42.0.xxx:/home/upsquared/
-
-	b. To run a graphic application on remote device and display on your host, here we use X11 Forwarding with SSH, open another Terminal on your laptop, type below command and **keep this terminal open**
+	a. To run a graphic application on remote device and display on your host, here we use X11 Forwarding with SSH, open another Terminal on your laptop, type below command and **keep this terminal open**
 
 		ssh upsquared@10.42.0.xxx -X
 
-	c. To get the read and write authority of the camera on the remote device, we need to type:
+	b. To get the read and write authority of the camera on the remote device, we need to type:
 
 		sudo chmod 666 /dev/video0
 
 	> **Note:** upsquared@upsquared-UP-APL01:~$ sudo chmod 666 /dev/video0
 
 
-1. Right click **interactive_face_detection_sample** from **Binaries**, select **Run As -> Run Configurations...**, then doulbe click **C/C++ Remote Application**, it will generate a configuration named interactive_face_detection_sample, rename it to **interactive_face_detection_sample_remote**, click Apply
+1. Right click **object_flaw_detector** from **Binaries**, select **Run As -> Run Configurations...**, then doulbe click **C/C++ Remote Application**, it will generate a configuration named interactive_face_detection_sample, rename it to **object_flaw_detector_remote**, click Apply
 
 2. Click **New** button after **Connection:**
 	<br>
@@ -139,7 +136,6 @@ Select the Language standard as ISO **C++ 11(-std=c++0x)** and click **OK**.
 	> **Note:** *Remember to open a Terminal on your laptop, type **ssh upsquared@10.42.0.xxx -X** and keep this terminal open, for running a GUI application remotely and display it locally*
 
 		export DISPLAY=localhost:10.0
-		export LD_LIBRARY_PATH=/home/upsquared/lib
 		source /opt/intel/computer_vision_sdk/bin/setupvars.sh
 
 	<br>
