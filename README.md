@@ -105,6 +105,12 @@ Select the Language standard as ISO **C++ 11(-std=c++0x)** and click **OK**.
 		sudo chmod 666 /dev/video0
 
 	> **Note:** upsquared@upsquared-UP-APL01:~$ sudo chmod 666 /dev/video0
+	
+	c. Download the object-flaw-detector.mp4 file from the data folder in this repository 
+	d. SCP the file over to the Up Squared board:
+	```
+	scp object-flaw-detector.mp4 upsquared@10.42.0.xxx:/home/upsquared
+	```
 
 
 1. Right click **object_flaw_detector** from **Binaries**, select **Run As -> Run Configurations...**, then doulbe click **C/C++ Remote Application**, it will generate a configuration named interactive_face_detection_sample, rename it to **object_flaw_detector_remote**, click Apply
