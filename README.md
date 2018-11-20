@@ -146,8 +146,9 @@ Select the Language standard as ISO **C++ 11(-std=c++0x)** and click **OK**.
 
 6. Click **Arguments** tag, add below arguments in **Program arguments:** then click Apply and OK
 
-
+```
 /home/upsquared/object-flaw-detector.mp4
+```
 
 
 ![image of Intel System Studio](./images/object-flaw-arguments.jpg)
@@ -155,9 +156,9 @@ Select the Language standard as ISO **C++ 11(-std=c++0x)** and click **OK**.
 		
 
 
-## To run the application from the terminal
+## To run the application from the UP2 terminal
 
-* Open a terminal on Ubuntu.
+* Open an SSH terminal to the Upsquared Board.
 
 * Updates to several environment variables are required to compile and run OpenVINO™ toolkit applications. Run the following script on the terminal to temporarily set the environment variables.
 
