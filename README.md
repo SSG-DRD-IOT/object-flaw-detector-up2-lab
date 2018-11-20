@@ -112,7 +112,7 @@ Select the Language standard as ISO **C++ 11(-std=c++0x)** and click **OK**.
 2. Click **New** button after **Connection:**
 	<br>
 
-	![image of Intel System Studio](https://github.com/intel-iot-devkit/smart-video-workshop/blob/master/images/ISS_Run_Configuration_New_Connection.png "Setup New Connection")
+	![image of Intel System Studio](./images/object-flaw-new-conection.jpg)
 
 	<br>
 3. In the droplist, choose **SSH**
