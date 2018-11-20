@@ -146,13 +146,13 @@ Select the Language standard as ISO **C++ 11(-std=c++0x)** and click **OK**.
 
 6. Click **Arguments** tag, add below arguments in **Program arguments:** then click Apply and OK
 
+
 /home/upsquared/object-flaw-detector.mp4
 
-	<br>
 
-	![image of Intel System Studio](./images/object-flaw-arguments.jpg)
+![image of Intel System Studio](./images/object-flaw-arguments.jpg)
 
-	<br>		
+		
 
 
 ## To run the application from the terminal
