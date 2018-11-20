@@ -146,26 +146,14 @@ Select the Language standard as ISO **C++ 11(-std=c++0x)** and click **OK**.
 
 6. Click **Arguments** tag, add below arguments in **Program arguments:** then click Apply and OK
 
-		-m ${ROOT_DIR}/intel_models/face-detection-retail-0004/FP32/face-detection-retail-0004.xml -m_ag ${ROOT_DIR}/intel_models/age-gender-recognition-retail-0013/FP32/age-gender-recognition-retail-0013.xml -m_hp ${ROOT_DIR}/intel_models/head-pose-estimation-adas-0001/FP32/head-pose-estimation-adas-0001.xml -d CPU -d_ag CPU -d_hp CPU
+/home/upsquared/object-flaw-detector.mp4
 
 	<br>
 
-	![image of Intel System Studio](https://github.com/intel-iot-devkit/smart-video-workshop/blob/master/images/ISS_Run_Configuration_face_detection_remote_arguments.png "Setup face_detection_remote Run Configuration")
+	![image of Intel System Studio](./images/object-flaw-arguments.jpg)
 
 	<br>		
 
-Now we can make a comparison of the performance running the same application between on our host laptop and on the UP² AI Vision kit, and you can load different models used here to different hardware by changing the arguments and see what is the optimized configuration for this application. More details of this sample project can be found from here: /opt/intel/computer_vision_sdk_2018.3.343/deployment_tools/documentation/docs/InferenceEngineInteractiveFaceDetectionSampleApplication.html
-
-> **Note:** The output of the UP² AI Kit is too big for the display, we can resize the windows by adding some codes in **main.c** under interact_face_detection_sample folder:
-
-Line 48 below: using namespace InferenceEngine;
-
-	using namespace cv;
-
-Line 1105 above: cv::imshow("Detection results", prev_frame);
-
-	cv::namedWindow( "Detection results", WINDOW_NORMAL);
-	cv::resizeWindow("Detection results", 1280, 720);
 
 ## To run the application from the terminal
 
