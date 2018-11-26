@@ -106,10 +106,9 @@ Select the Language standard as ISO **C++ 11(-std=c++0x)** and click **OK**.
 
 	> **Note:** upsquared@upsquared-UP-APL01:~$ sudo chmod 666 /dev/video0
 	
-	c. Download the object-flaw-detector.mp4 file from the data folder in this repository 
-	d. SCP the file over to the Up Squared board:
-	```
-	scp object-flaw-detector.mp4 upsquared@10.42.0.xxx:/home/upsquared
+	c. Download the object-flaw-detector.mp4 file from the data folder in this repository to the home directory of the Up2 board :
+	```cd /home/upsquared
+	wget https://github.com/SSG-DRD-IOT/object-flaw-detector-up2-lab/blob/master/data/object-flaw-detector.mp4
 	```
 
 
