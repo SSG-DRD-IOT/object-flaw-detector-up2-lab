@@ -61,20 +61,21 @@ On the system, open Intel® System Studio 2018 and choose your workspace.
 ### Add Include Path
 1. Select **Project -> Properties -> C/C++ General -> Paths and Symbols**
 2. Select **Includes -> GNU C++** and Click on **Add...**
-3. Add *opt/intel/computer\_vision\_sdk\_&lt;version&gt;/opencv/include* to include the path of OpenVINO™ toolkit.
+3. Add */opt/intel/computer\_vision\_sdk\_&lt;version&gt;/opencv/include* to include the path of OpenVINO™ toolkit.
 
 ![Figure 4](./images/figure4.png)
 
 
 ### Add Libraries  
 1. Select **Project -&gt; Properties -&gt; C/C++ Build -&gt; Settings -&gt; GCC C++ Linker -&gt; Libraries**
-2. Add *opt/intel/computer\_vision\_sdk\_&lt;version&gt;/opencv/lib* to ```Library Search Path (-L)```
+2. Add */opt/intel/computer\_vision\_sdk\_&lt;version&gt;/opencv/lib* to ```Library Search Path (-L)```
 3. Add **opencv_core, opencv_highgui, opencv_imgproc, opencv_imgcodecs, opencv_videoio** one at a time to the ```Libraries (-l)```
 
 ![Figure 5](./images/figure5.png)
 
 Select **Project -&gt; Properties -&gt; C/C++ Build -&gt; Settings -&gt; GCC C++ Compiler -&gt; Dialect**.
 Select the Language standard as ISO **C++ 11(-std=c++0x)** and click **OK**.
+If a dialog with the "Changes made will not be reflected in the index until it is rebuilt. Do you wish to rebuild it now?" message is shown, Click **Yes**.
 
 ![Figure 6](./images/figure6.png)
 
