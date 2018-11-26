@@ -113,7 +113,7 @@ If a dialog with the "Changes made will not be reflected in the index until it i
 	```
 
 
-1. Right click **object_flaw_detector** from **Binaries**, select **Run As -> Run Configurations...**, then doulbe click **C/C++ Remote Application**, it will generate a configuration named interactive_face_detection_sample, rename it to **object_flaw_detector_remote**, click Apply
+1. Right click **object_flaw_detector** from the **Binaries** folder, select **Run As -> Run Configurations...**, then doulbe click **C/C++ Remote Application**, it will generate a configuration named interactive_face_detection_sample, rename it to **object_flaw_detector_remote**, click Apply
 
 2. Click **New** button after **Connection:**
 	<br>
