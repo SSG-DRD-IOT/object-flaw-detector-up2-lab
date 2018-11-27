@@ -164,7 +164,10 @@ If a dialog with the "Changes made will not be reflected in the index until it i
 
 ## To run the application from the UP2 terminal
 
-* Open an SSH terminal to the Upsquared Board.
+* Open an SSH terminal to the Upsquared Board:
+```
+ssh upsquared@10.42.0.xxx -X
+```
 
 * Updates to several environment variables are required to compile and run OpenVINO™ toolkit applications. Run the following script on the terminal to temporarily set the environment variables.
 
