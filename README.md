@@ -136,7 +136,7 @@ If a dialog with the "Changes made will not be reflected in the index until it i
 
 5. In **Remote Absolute File Path for C/C++ Application**, type:
 
-		/home/upsquared/interactive_face_detection_sample
+		/home/upsquared/object_flaw_detector
 
 6. In **Commands to execute before application**, type:
 	> **Note:** *Remember to open a Terminal on your laptop, type **ssh upsquared@10.42.0.xxx -X** and keep this terminal open, for running a GUI application remotely and display it locally*
@@ -168,7 +168,7 @@ If a dialog with the "Changes made will not be reflected in the index until it i
 
 * Updates to several environment variables are required to compile and run OpenVINO™ toolkit applications. Run the following script on the terminal to temporarily set the environment variables.
 
-   ``` source /opt/intel/computer_vision_sdk_2018.2.<version>/computer_vision_sdk/bin/setupvars.sh ```
+   ``` source /opt/intel/computer_vision_sdk/bin/setupvars.sh ```
 
 *  Go to object flaw detector directory.
 
