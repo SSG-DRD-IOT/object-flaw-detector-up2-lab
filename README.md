@@ -133,12 +133,14 @@ If a dialog with the "Changes made will not be reflected in the index until it i
 	![image of Intel System Studio](https://github.com/intel-iot-devkit/smart-video-workshop/blob/master/images/ISS_Setup_New_Connection.png "Setup Tutorial1_remote Run Configuration")
 
 	<br>
+	
+5. When asked for an eclipse secure password enter "upsquared" - the root password for the Up2 Board
 
-5. In **Remote Absolute File Path for C/C++ Application**, type:
+6. In **Remote Absolute File Path for C/C++ Application**, type:
 
 		/home/upsquared/object_flaw_detector
 
-6. In **Commands to execute before application**, type:
+7. In **Commands to execute before application**, type:
 	> **Note:** *Remember to open a Terminal on your laptop, type **ssh upsquared@10.42.0.xxx -X** and keep this terminal open, for running a GUI application remotely and display it locally*
 
 		export DISPLAY=localhost:10.0
@@ -150,7 +152,7 @@ If a dialog with the "Changes made will not be reflected in the index until it i
 
 	<br>
 
-6. Click **Arguments** tag, add below arguments in **Program arguments:** then click Apply and OK
+8. Click **Arguments** tag, add below arguments in **Program arguments:** then click Apply and OK
 
 ```
 /home/upsquared/object-flaw-detector.mp4
