@@ -172,6 +172,9 @@ ssh upsquared@10.42.0.xxx -X
 * Updates to several environment variables are required to compile and run OpenVINO™ toolkit applications. Run the following script on the terminal to temporarily set the environment variables.
 
    ``` source /opt/intel/computer_vision_sdk/bin/setupvars.sh ```
+   
+* Clone this repo onto the Up2 Board:
+``` git clone https://github.com/SSG-DRD-IOT/object-flaw-detector-up2-lab.git ```
 
 *  Go to object flaw detector directory.
 
