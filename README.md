@@ -109,7 +109,7 @@ If a dialog with the "Changes made will not be reflected in the index until it i
 	
 	c. Download the object-flaw-detector.mp4 file from the data folder in this repository to the home directory of the Up2 board :
 	```cd /home/upsquared
-	wget https://github.com/SSG-DRD-IOT/object-flaw-detector-up2-lab/blob/master/data/object-flaw-detector.mp4
+	wget https://github.com/SSG-DRD-IOT/object-flaw-detector-up2-lab/raw/master/data/object-flaw-detector.mp4
 	```
 
 
